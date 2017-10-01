@@ -1,0 +1,47 @@
+p,h1,h2,ul{
+	color:black;
+    font-family:verdana;
+	}
+
+div{
+    border: 2px solid #3366ff;
+  background-color: lightgrey; 
+    border-radius: 24px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+#one{
+    margin-top: 10px;
+}
+
+div ul{
+        padding-left: 10px;
+}
+#home{
+    background: grey;
+}
+/**
+#buttons{
+    margin:5px;
+    height: 225px;
+    width: 225px;
+    background: url(../imagens/twitterlogo.png) 50% 50% no-repeat;
+} **/
+
+
+#imagempratica {
+width:962px;
+height:900px;
+background: url(../imagens/ygohwpp.jpg) 50% 50% no-repeat;
+    
+}
+#hovers {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#hovers:hover {
+    background-color: black;
+}
