@@ -21,13 +21,16 @@ div ul{
 #home{
     background: grey;
 }
-/**
+
 #buttons{
     margin:5px;
     height: 225px;
     width: 225px;
-    background: url(../imagens/twitterlogo.png) 50% 50% no-repeat;
-} **/
+}
+
+#buttons:hover{
+  /*  background-color: black; */
+} 
 
 
 #imagempratica {
