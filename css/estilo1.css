@@ -1,44 +1,102 @@
-p,h1,h2,ul{
-	color:black;
-    font-family:verdana;
-	}
+p,ul{
+    font-size:20px;
+}
 
-div{
-    border: 2px solid #3366ff;
-  background-color: lightgrey; 
+p,h1,h2,ul{
+	color:#171717;
+    font-family:verdana;
+    }
+
+
+h2{
+    margin-left: 23px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    display: table;
+    transition: 0.3s;
+}
+
+h2:hover{
+        background-color: rgba(255, 255, 255, 1);
+}
+
+.container1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #FCAB26;
+    background-color: rgb(230, 230, 230,0.75);
     border-radius: 24px;
     padding-left: 20px;
     margin-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    transition: 0.4s;
 }
 
-#one{
-    margin-top: 10px;
+.container1:hover{
+    background-color: rgb(230, 230, 230,1);
 }
 
 div ul{
         padding-left: 10px;
 }
 #home{
-    background: grey;
+    background: #e6e6e6;
 }
 
 #buttons{
-    margin:5px;
-    height: 225px;
-    width: 225px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background: url(../imagens/mountain.jpg) 90% 84.3% no-repeat;
+    border-radius: 5px;
 }
 
-#buttons:hover{
-  /*  background-color: black; */
-} 
-
-
-#imagempratica {
-width:962px;
-height:900px;
-background: url(../imagens/ygohwpp.jpg) 50% 50% no-repeat;
-    
+#main_text{
+    background-image: url(../imagens/mountain.jpg);
 }
+
+.buttons_imgs{
+    position:relative;
+    margin: 15px;
+    margin-left: 10px;
+    margin-right: 50px;
+    float: left;
+
+}
+
+.buttons_imgs img{
+    position: absolute;
+    left:10;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.buttons_imgs img.top:hover{
+    opacity:0;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 50px;
+   width: 800px;
+    align-content: center;
+}
+
+.title{
+    text-decoration: none;
+    color:black;
+    font-family: Arial Black;
+    font-size: 50px;
+   text-align: center;
+}
+/*
 #hovers {
     width: 200px;
     height: 200px;
@@ -47,4 +105,4 @@ background: url(../imagens/ygohwpp.jpg) 50% 50% no-repeat;
 
 #hovers:hover {
     background-color: black;
-}
+} */

@@ -1,3 +1,3 @@
 
-alert("SEU PC FOI CONTAMINADO");
+//alert("SEU PC FOI CONTAMINADO");
 //document.write("SEU PC FOI CONTAMINADO");
