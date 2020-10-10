@@ -74,7 +74,7 @@ div ul{
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 
 }
 
@@ -96,13 +96,3 @@ header{
     font-size: 50px;
    text-align: center;
 }
-/*
-#hovers {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-}
-
-#hovers:hover {
-    background-color: black;
-} */
