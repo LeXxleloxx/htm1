@@ -5,6 +5,7 @@ $(function(){
         function(){
         console.log("skills clicado");
         $("#main_text").css("display","none");
+        $("#skills_text").css("display","block");
     }
     );
 
@@ -12,6 +13,7 @@ $(function(){
         function(){
         console.log("resumo clicado");
         $("#main_text").css("display","initial");
+        $("#skills_text").css("display","none");
     }
     );
  });
