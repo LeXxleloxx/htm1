@@ -1,3 +1,23 @@
+$(function(){
+    console.log("Starto!");
 
-//alert("SEU PC FOI CONTAMINADO");
-//document.write("SEU PC FOI CONTAMINADO");
+    $("#skills").click(
+        function(){
+        console.log("skills clicado");
+        $("#main_text").css("display","none");
+    }
+    );
+
+    $("#resume").click(
+        function(){
+        console.log("resumo clicado");
+        $("#main_text").css("display","initial");
+    }
+    );
+ });
+
+/*$().ready(function(){
+    console.log("jquery start");
+
+
+}); */

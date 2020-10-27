@@ -5,11 +5,57 @@ p,ul{
 p,h1,h2,ul{
 	color:#171717;
     font-family:verdana;
-    }
+}
 
+.margin40px{
+    margin-left: 40px;
+}
+
+.title{
+    text-decoration: none;
+    color:black;
+    font-family: Arial Black;
+    font-size: 40px;
+}
+
+#buttons{
+    height: 70px;
+    /*width: 1500px;*/
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background: url(../imagens/mountain.jpg) 90% 84.3% no-repeat;
+    border-radius: 5px;
+}
+
+.menu{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#home a{
+    text-decoration:none;
+}
+
+#resume,#skills {
+    text-decoration:none;
+    font-family:verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color:#17696d;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#resume:hover,#skills:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    transition:0.4s;
+}
 
 h2{
-    margin-left: 23px;
+    margin-left: 40px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     display: table;
@@ -17,19 +63,25 @@ h2{
 }
 
 h2:hover{
-        background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .container1 {
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
+    margin-left: 20px;
     margin-bottom: 5px;
     border: 2px solid #FCAB26;
     background-color: rgb(230, 230, 230,0.75);
     border-radius: 24px;
     padding-left: 20px;
-    margin-left: 10px;
     padding-right: 10px;
+    width: auto;
     display: inline-block;
+     max-width: 1500px;
     transition: 0.4s;
 }
 
@@ -38,24 +90,10 @@ h2:hover{
 }
 
 div ul{
-        padding-left: 10px;
+    padding-left: 10px;
 }
+
 #home{
-    background: #e6e6e6;
-}
-
-#buttons{
-    height: 70px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    background: url(../imagens/mountain.jpg) 90% 84.3% no-repeat;
-    border-radius: 5px;
-}
-
-#main_text{
     background-image: url(../imagens/mountain.jpg);
 }
 
@@ -65,7 +103,6 @@ div ul{
     margin-left: 10px;
     margin-right: 50px;
     float: left;
-
 }
 
 .buttons_imgs img{
@@ -75,24 +112,8 @@ div ul{
     -moz-transition: opacity 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.3s ease-in-out;
-
 }
 
 .buttons_imgs img.top:hover{
     opacity:0;
-}
-
-header{
-    margin-top: 10px;
-    margin-left: 50px;
-   width: 800px;
-    align-content: center;
-}
-
-.title{
-    text-decoration: none;
-    color:black;
-    font-family: Arial Black;
-    font-size: 50px;
-   text-align: center;
 }
